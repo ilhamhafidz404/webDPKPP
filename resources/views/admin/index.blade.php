@@ -33,7 +33,7 @@
           <form action="{{route('inventory.destroy', $inventory->id)}}" class="d-inline mr-2" method="POST">
             @csrf
             @method("DELETE")
-            <button class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></button>
+            <button class="btn btn-danger btn-sm" onclick="return confirm('apakah yakin ingin menghapus data ini?')"><i class="fas fa-trash-alt"></i></button>
           </form>
           <a href="{{route('inventory.edit', $inventory->id)}}" class="btn btn-sm btn-primary">
             <i class="fas fa-pencil-alt"></i>

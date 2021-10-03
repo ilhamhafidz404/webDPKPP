@@ -42,10 +42,10 @@
       </div>
       <div class="card-wrap">
         <div class="card-header">
-          <h4>Total Admin</h4>
+          <h4>Total Pegawai</h4>
         </div>
         <div class="card-body">
-          10
+          50
         </div>
       </div>
     </div>
@@ -57,10 +57,10 @@
       </div>
       <div class="card-wrap">
         <div class="card-header">
-          <h4>News</h4>
+          <h4>Pimpinan DPKPP Kuningan</h4>
         </div>
         <div class="card-body">
-          42
+          Ir. I. PUTU BAGIASNA, MT
         </div>
       </div>
     </div>
@@ -72,10 +72,10 @@
       </div>
       <div class="card-wrap">
         <div class="card-header">
-          <h4>Reports</h4>
+          <h4>Total Perumahan</h4>
         </div>
         <div class="card-body">
-          1,201
+          {{$inventories}}
         </div>
       </div>
     </div>
@@ -91,6 +91,77 @@
         </div>
         <div class="card-body">
           47
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card card-primary p-3">
+          <h5 class="text-center text-primary">VISI</h5>
+          <p class="text-center">
+            “Terwujudnya Permukiman Prima yang Berwawasan Lingkungan dan Berbudaya Menuju Rapih Winangun Kerta Raharja"
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card card-danger p-3">
+          <h5 class="text-center text-danger">Misi</h5>
+          <p class="text-center">
+            1.   Peningkatan kualitas dan kuantitas lingkungan perumahan / permukiman
+            <br>
+            2.   Meningkatkan Ketersediaan prasarana dan sarana permukiman Sesuai Kebutuhan Dasar
+            <br>
+            3.   Meningkatkan pembinaan bangunan gedung sesuai kaidah teknis serta pembinaan jasa konstruksi.
+            <br>
+            4.   Mewujudkan tertib perencanaan, penataan, penguasaan, pemilikan, penggunaan dan pemanfaatan tanah.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <div class="card p-3">
+      <div class="card-header ">
+        <h3 class="text-primary">
+          Gallery
+        </h3>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <a href="{{asset('images/gallery/1.jpg')}}" data-lightbox="image-1" data-title="Piagam Penghargaan SKPD terbaik">
+              <img src="{{asset('images/gallery/1.jpg')}}" alt="" class="img-thumbnail">
+            </a>
+          </div>
+          <div class="col-md-4 mb-3">
+            <a href="{{asset('images/gallery/2.jpeg')}}" data-lightbox="image-1" data-title="Juara 1 Futsal HUT KORPRI ke-48">
+              <img src="{{asset('images/gallery/2.jpeg')}}" alt="" class="img-thumbnail">
+            </a>
+          </div>
+          <div class="col-md-4 mb-3">
+            <a href="{{asset('images/gallery/3.jpeg')}}" data-lightbox="image-1" data-title="Juara 1 Futsal HUT KORPRI ke-48">
+              <img src="{{asset('images/gallery/3.jpeg')}}" alt="" class="img-thumbnail">
+            </a>
+          </div>
+          <div class="col-md-4 mb-3">
+            <a href="{{asset('images/gallery/4.jpeg')}}" data-lightbox="image-1" data-title="Rencana Tapak dan DED Rumah Khusus">
+              <img src="{{asset('images/gallery/4.jpeg')}}" alt="" class="img-thumbnail">
+            </a>
+          </div>
+          <div class="col-md-4 mb-3">
+            <a href="{{asset('images/gallery/5.jpeg')}}" data-lightbox="image-1" data-title="Rencana Tapak dan DED Rumah Khusus">
+              <img src="{{asset('images/gallery/5.jpeg')}}" alt="" class="img-thumbnail">
+            </a>
+          </div>
+          <div class="col-md-4 mb-3">
+            <a href="{{asset('images/gallery/6.jpeg')}}" data-lightbox="image-1" data-title="Bintek Pengukuran tanah bagi Kaur Ekbang">
+              <img src="{{asset('images/gallery/6.jpeg')}}" alt="" class="img-thumbnail">
+            </a>
+          </div>
         </div>
       </div>
     </div>

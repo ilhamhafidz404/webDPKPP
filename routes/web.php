@@ -14,14 +14,14 @@ use App\Http\Controllers\InventoryController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
-  return view('welcome');
+  return view('auth.login');
 });
 
-Route::get('dashboard', DashboardController::class)->name('dashboard');
-Route::resource('admin/inventory', InventoryController::class);
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::middleware(['auth'])->group(function() {
+  Route::get('dashboard', DashboardController::class)->name('dashboard');
+  Route::resource('admin/inventory', InventoryController::class);
+});
+Route::middleware(['guest'])->group(function() {
+  Auth::routes();
+});
