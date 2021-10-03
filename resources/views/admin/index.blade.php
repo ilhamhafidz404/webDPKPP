@@ -18,9 +18,10 @@
         <th>Progres</th>
         <th>Action</th>
       </tr>
+      <?php $i = 1 ?>
       @foreach($inventories as $inventory)
       <tr>
-        <td>1</td>
+        <td>{{$i++}}</td>
         <td>{{$inventory->daerah}}</td>
         <td>{{$inventory->pengembang}}</td>
         <td>{{$inventory->perumahan}}</td>
