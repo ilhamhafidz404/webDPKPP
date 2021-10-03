@@ -22,6 +22,4 @@ Route::middleware(['auth'])->group(function() {
   Route::get('dashboard', DashboardController::class)->name('dashboard');
   Route::resource('admin/inventory', InventoryController::class);
 });
-Route::middleware(['guest'])->group(function() {
-  Auth::routes();
-});
+Auth::routes();
