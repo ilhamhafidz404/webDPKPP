@@ -36,7 +36,7 @@
                   @csrf
                   <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" type="email" class="form-control @error('email') ins-invalid @enderror" name="email" required>
+                    <input id="email" type="email" class="form-control @error('email') ins-invalid @enderror" name="email" required autocomplete="email">
                     @error('email')
                     <div class="invalid-feedback">
                       {{$message}}
