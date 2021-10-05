@@ -87,10 +87,12 @@
       </div>
       <div class="card-wrap">
         <div class="card-header">
-          <h4>Online Users</h4>
+          <h4>Alamat DPKPP Kuningan</h4>
         </div>
         <div class="card-body">
-          47
+          <h6 class="mt-3">
+            Jl.RE. Martadinata, Ancaran, Kuningan
+          </h6>
         </div>
       </div>
     </div>

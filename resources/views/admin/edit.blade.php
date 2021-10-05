@@ -58,9 +58,7 @@
               </div>
               <div class="col-12">
                 <div class="form-group text-right mt-3">
-                  <button class="btn btn-danger me-3" type="reset">
-                    Reset
-                  </button>
+                  <a href="{{route('inventory.index')}}" class="btn btn-danger">Kembali</a>
                   <button class="btn btn-primary px-4">
                     <i class="fas fa-save mr-3"></i>
                     Submit
