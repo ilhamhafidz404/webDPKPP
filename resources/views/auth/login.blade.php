@@ -32,11 +32,11 @@
               </div>
 
               <div class="card-body">
-                <form method="POST" action="{{route('login')}}" class="needs-validation">
+                <form method="POST" action="{{route('login')}}">
                   @csrf
                   <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" type="email" class="form-control @error('email') ins-invalid @enderror" name="email" tabindex="1" required autofocus>
+                    <input id="email" type="email" class="form-control @error('email') ins-invalid @enderror" name="email" required>
                     @error('email')
                     <div class="invalid-feedback">
                       {{$message}}
