@@ -28,7 +28,11 @@
 
             <div class="card card-success">
               <div class="card-header">
-                <h4 class="text-success">Login</h4>
+                <h4 class="text-success">
+                  <a href="{{route('login')}}" class="text-decoration-none text-success text-uppercase">
+                    Login
+                  </a>
+                </h4>
               </div>
 
               <div class="card-body">

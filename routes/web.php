@@ -16,7 +16,7 @@ use App\Http\Controllers\InventoryController;
 */
 Route::get('/', function () {
   return view('auth.login');
-});
+})->name('index');
 
 Route::middleware(['auth'])->group(function() {
   Route::get('dashboard', DashboardController::class)->name('dashboard');
