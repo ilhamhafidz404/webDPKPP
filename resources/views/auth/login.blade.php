@@ -36,7 +36,7 @@
                   @csrf
                   <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" type="email" class="form-control @error('email') ins-invalid @enderror" name="email" autocomplete="email" autofocus placeholder="Email" value="{{odl('email')}}">
+                    <input id="email" type="email" class="form-control @error('email') ins-invalid @enderror" name="email" autocomplete="email" autofocus placeholder="Email" value="{{old('email')}}">
                     @error('email')
                     <div class="invalid-feedback">
                       {{$message}}
